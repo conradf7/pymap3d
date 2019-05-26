@@ -84,6 +84,8 @@ lla = pm.aer2geodetic(*aer,*obslla)
 where tuple `lla` is comprised of scalar or N-D arrays `(lat,lon,alt)`.
 
 
+Example scripts are in the [examples](./examples) directory.
+
 ### Functions
 
 Popular mapping toolbox functions ported to Python include the
@@ -126,7 +128,7 @@ Abbreviations:
 
 As compared to [PyProj](https://github.com/jswhit/pyproj):
 
--   PyMap3D does not require anything beyond pure Python + Numpy.
+-   PyMap3D does not require anything beyond pure Python -- not even Numpy is required for basic functions.
 -   PyMap3D API is similar to Matlab Mapping Toolbox, while PyProj's interface is quite distinct
 -   PyMap3D intrinsically handles local coordinate systems such as ENU,
     while for PyProj ENU requires some [additional
